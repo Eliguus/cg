@@ -127,7 +127,7 @@ while(1):
     sprite_sheet_image2 = pygame.image.load('pictures/New Piskel (1).png').convert_alpha()
     sprite_sheet2 = SpriteSheet(sprite_sheet_image2)
 
-    no_animations = 8
+    no_animations = 10
     list_animation = []
 
     last_update = pygame.time.get_ticks()
@@ -135,7 +135,7 @@ while(1):
     animation_cool = 100
 
 
-    no_animations2 = 8
+    no_animations2 = 10
     list_animation2 = []
 
     
